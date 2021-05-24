@@ -1,0 +1,26 @@
+name: font_test_app
+description: A test app to check platform font system
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: CustomEnglish
+      fonts:
+      - asset: assets/fonts/Pattaya-Regular.ttf
+    - family: CustomKorean
+      fonts:
+      - asset: assets/fonts/BlackHanSans-Regular.ttf
+    # English font
+    - family: NotoSans
+      fonts:
+      - asset: assets/fonts/NotoSans-Regular.ttf
